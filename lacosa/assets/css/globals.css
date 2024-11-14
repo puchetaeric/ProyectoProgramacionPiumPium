@@ -1,0 +1,55 @@
+body {
+    margin: 56px 0 0;
+    padding: 0;
+
+}
+
+.contenedortabla{
+    margin-top: 75px;
+}
+.container{
+    margin: -30px;
+}
+.row-content {
+    padding: 40px 0;
+    border-bottom: 3px solid gray;
+}
+.logo, .rojo{
+    width: 42.5px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footertexto{
+    text-align: center;
+}
+.redes{
+    text-decoration: none;
+    color: white;;
+}
+.misredes{
+    margin-left: 35px;
+}
+.asd{
+    background-color: #ED192D;
+}
+div table thead tr{
+    background-color: #ED192D;
+
+}
+.aaa{
+    width: 100%;
+}
+/*footer*/
+
+.footer1{
+    text-align: center;
+}
+
+.parrafo{
+    margin-left: 373px;
+}
+.borde{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}

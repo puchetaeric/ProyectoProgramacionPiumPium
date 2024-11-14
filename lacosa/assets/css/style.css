@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 ;
+    padding: 0;
+    overflow-x: hidden;
+}
+html{
+margin: 0;
+padding: 0;
+}
+.contenedortabla{
+    margin-top: 75px;
+}
+.container{
+    margin: -30px;
+}
+.row-content {
+    padding: 40px 0;
+    border-bottom: 3px solid gray;
+}
+.logo, .rojo{
+    width: 42.5px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footertexto{
+    text-align: center;
+}
+.redes{
+    text-decoration: none;
+    color: white;;
+}
+.misredes{
+    margin-left: 35px;
+}
+.asd{
+    background-color: #ED192D;
+}
+div table thead tr{
+    background-color: #ED192D;
+
+}
+.aaa{
+    width: 100%;
+}
+/*footer*/
+
+.footer1{
+    text-align: center;
+}
+
+.parrafo{
+    margin-left: 373px;
+}
+.borde{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.carousel, .carousel-inner{
+    max-width: 500px; /* Ajusta el ancho máximo del carrusel */
+    margin: 0 auto; /* Centra el carrusel */
+}
+.carousel-inner img {
+    height: 500px;
+    width: 100%;
+}
+.aaaa{
+    text-decoration: none;
+}
+/*Tarjetas autores*/
+.contenedor-tarjetas{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.card-tarjetas{
+    width: 500px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card-tarjetas:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-5%);
+}
+.card-tarjetas img{
+    width: 100%;
+    height: 210px;
+}
+.card-tarjetas .contenedor-tarjetas{
+    padding: 15px;
+    text-align: center;
+}
+.card-tarjetas .contenedor-tarjetas p {
+ line-height: 1.5;
+    color: #6a6a6a
+}
+.card-tarjetas .contenedor-tarjetas h3{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+/*borde y transicion 3 colores*/
+.pruebita-r, .pruebita-am, .pruebita-az{
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.pruebita-r:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-1%);
+    border: 10px solid red;
+}
+.pruebita-am:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-1%);
+    border: 10px solid yellow;
+}
+.pruebita-az:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-1%);
+    border: 10px solid blue;
+}
+
+
